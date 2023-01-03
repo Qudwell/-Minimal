@@ -1,0 +1,54 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img {
+    padding: 18px 0;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+}
+
+.header__link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-transform: uppercase;
+
+    color: #404040;
+}
+
+.banner {
+    background: url(../imgs/banner.png) no-repeat top center/cover;
+    height: 391px;
+
+}
