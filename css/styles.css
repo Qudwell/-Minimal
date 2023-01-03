@@ -41,11 +41,10 @@
     font-size: 12px;
     line-height: 20px;
     /* identical to box height, or 167% */
-
     text-transform: uppercase;
-
     color: #404040;
 }
+
 
 .banner {
     background: url(../imgs/banner.png) no-repeat top center/cover;
@@ -96,7 +95,7 @@
 
 .banner::after {
     content: url(../imgs/cross.png);
-    position: absolute; 
+    position: absolute;
     left: calc(50% - 52px/2);
     top: 391px;
     transform: translateX(-50%) translateY(-50%);
@@ -110,4 +109,46 @@
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
+}
+
+.yellow {
+    background: #FEFEC9;
+    margin-bottom: 80px;
+}
+
+.yellow__wrap {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+}
+
+.yellow__p {
+    font-family: 'Vollkorn', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #47474F;
+}
+
+.yellow__link {
+    padding: 13px 34px 20px;
+    border-top: 1px solid #47474F;
+    border-right: 1px solid #47474F;
+    border-left: 1px solid #47474F;
+    border-bottom: 2px solid #47474F;
+    font-family: 'Vollkorn', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #47474F;
+    transition: 0.3s;
+}
+.yellow__link:hover{
+    transform: scale(1.2);
 }
