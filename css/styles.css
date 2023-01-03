@@ -50,5 +50,64 @@
 .banner {
     background: url(../imgs/banner.png) no-repeat top center/cover;
     height: 391px;
+    position: relative;
+}
 
+
+.banner__wrap {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 55px;
+
+
+}
+
+.banner__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner__h__Span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: white;
+    top: 243px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner::after {
+    content: url(../imgs/cross.png);
+    position: absolute; 
+    left: calc(50% - 52px/2);
+    top: 391px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.banner__p {
+    font-family: 'Vollkorn', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
 }
