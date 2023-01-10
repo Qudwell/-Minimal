@@ -171,7 +171,7 @@
 
 .brands__wrap {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 20px;
     margin-bottom: 74px;
@@ -204,7 +204,7 @@
     align-items: center;
     justify-content: center;
     background-color: #F5F5F5;
-    ;
+
 }
 
 .block__h {
@@ -227,4 +227,132 @@
     letter-spacing: 0em;
     text-align: center;
 
+}
+
+.projects {
+    background: #F5F5F5;
+
+}
+
+.projects__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding: 79px 0 73px;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.projects__h::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    background: #00000017;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 28px;
+
+}
+
+
+.project__img {
+    display: block;
+}
+
+.projects__wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 89px;
+}
+
+.card_desc {
+    display: flex;
+    align-items: center;
+    background: white;
+    flex-direction: column;
+}
+
+.card__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 19px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.card__p {
+    font-family: 'Vollkorn', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.team__h {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    /* identical to box height, or 157% */
+    padding: 79px 0 73px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.team__wrap {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.team__img {
+    display: block;
+}
+
+.team_card__h {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    color: #333333;
+
+}
+
+.team__p {
+    font-family: 'Vollkorn', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    padding-bottom: 29px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.team_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
 }
