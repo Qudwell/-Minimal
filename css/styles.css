@@ -254,7 +254,7 @@
     background: #00000017;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 28px;
+    bottom: 36px;
 
 }
 
@@ -309,6 +309,18 @@
     padding: 79px 0 73px;
     text-align: center;
     text-transform: uppercase;
+    position: relative;
+}
+
+.team__h::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 80px;
+    background: #00000017;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 36px;
 }
 
 .team__wrap {
@@ -355,4 +367,74 @@
     align-items: center;
     justify-content: center;
     gap: 6px;
+}
+
+.reviews_wrap {
+    width: 100%;
+}
+
+.reviews {
+    background: #F5F5F5;
+    position: relative;
+}
+
+.reviews::after{
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    top: 198px;
+    width: 2px;
+    height: 215px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.reviews_kovichki {
+    padding: 69px 0 65px;
+
+}
+
+.reviews_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews_cards {
+    display: flex;
+    gap: 124px;
+    align-items: center;
+}
+
+.reviews__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews__p {
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    max-width: 338px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 24px;
+    color: #333333;
+}
+
+.review__h {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    padding: 10px 0 98px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ABABAB;
 }
